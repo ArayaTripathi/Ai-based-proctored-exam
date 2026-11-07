@@ -1,0 +1,44 @@
+{
+  "name": "proctor-ai",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "dev:socket": "node server.js",
+    "dev:full": "concurrently \"npm run dev\" \"npm run dev:socket\"",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed": "curl -X POST http://localhost:3000/api/seed"
+  },
+  "dependencies": {
+    "@headlessui/react": "^2.2.9",
+    "@monaco-editor/react": "^4.7.0",
+    "@react-three/drei": "^10.7.7",
+    "@react-three/fiber": "^9.5.0",
+    "@tensorflow/tfjs": "^4.22.0",
+    "face-api.js": "^0.22.2",
+    "firebase": "^12.11.0",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^0.577.0",
+    "mongoose": "^9.3.1",
+    "next": "^15.1.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "recharts": "^3.8.0",
+    "socket.io": "^4.8.3",
+    "socket.io-client": "^4.8.3",
+    "three": "^0.183.2",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.0",
+    "concurrently": "^10.0.6",
+    "postcss": "^8.4.0",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.7.0"
+  }
+}
