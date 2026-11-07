@@ -97,6 +97,9 @@ cd ../..
 # Run
 npm run dev
 ```
+### Active link 
+
+https://ai-based-proctored-exam.vercel.app/
 
 ### Environment Variables
 
