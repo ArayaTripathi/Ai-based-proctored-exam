@@ -46,7 +46,7 @@ An intelligent proctoring system that monitors face, gaze, head pose, audio, and
 | Styling | Tailwind CSS, Framer Motion |
 | Icons | Lucide React |
 
-## 🔬 5-Channel Behavioral Analysis
+##  5-Channel Behavioral Analysis
 
 | Channel | Weight | Technology | What it detects |
 |---------|--------|-----------|----------------|
@@ -67,7 +67,7 @@ An intelligent proctoring system that monitors face, gaze, head pose, audio, and
 3. **Human Review Queue** — Every flag goes to admin with 10s evidence window + channel scores.
 4. **Per-Student Calibration** — 30s baseline sampling adjusts for lighting, noise, and face position.
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 - Node.js 18+
@@ -116,7 +116,7 @@ MONGODB_URI=mongodb+srv://...
 NEXT_PUBLIC_SOCKET_URL=http://localhost:3001
 ```
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -168,10 +168,4 @@ src/
 | Human review | Manual | Auto-queued + evidence |
 | Bias mitigation | Known issues | Calibrated per-student |
 
-## 📄 License
-
-MIT
-
----
-
-Built with ❤️ 
+ 
